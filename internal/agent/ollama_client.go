@@ -32,16 +32,16 @@ func NewOllamaClient() OllamaClient {
 }
 
 type OllamaGenerateRequest struct {
-	Model   string   `json:"model"`
-	Prompt  string   `json:"prompt"`
-	Stream  bool     `json:"stream,omitempty"`
-	Images  []string `json:"images,omitempty"`
-	Format  string   `json:"format,omitempty"`
-	Options map[string]interface{} `json:"options,omitempty"`
-	System  string   `json:"system,omitempty"`
-	Template string  `json:"template,omitempty"`
-	Raw     bool     `json:"raw,omitempty"`
-	KeepAlive string `json:"keep_alive,omitempty"`
+	Model     string                 `json:"model"`
+	Prompt    string                 `json:"prompt"`
+	Stream    bool                   `json:"stream,omitempty"`
+	Images    []string               `json:"images,omitempty"`
+	Format    string                 `json:"format,omitempty"`
+	Options   map[string]interface{} `json:"options,omitempty"`
+	System    string                 `json:"system,omitempty"`
+	Template  string                 `json:"template,omitempty"`
+	Raw       bool                   `json:"raw,omitempty"`
+	KeepAlive string                 `json:"keep_alive,omitempty"`
 }
 
 type OllamaGenerateResponse struct {
