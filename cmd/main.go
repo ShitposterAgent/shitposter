@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"os"
 	"github.com/joho/godotenv"
+	"github.com/shitposteragent/shitposter/internal/agent"
 	"github.com/spf13/cobra"
-	"shitposter/internal/agent"
+	"os"
 )
 
 func main() {
